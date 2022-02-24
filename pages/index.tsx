@@ -32,9 +32,6 @@ const Home: NextPage = () => {
         </div>
         <Socials />
       </div>
-      <h1 className="text-black text-center text-xs best">
-        हम होंगे कामयाब एक दिन
-      </h1>
     </div>
   );
 };

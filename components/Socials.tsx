@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const Socials = () => {
   return (
-    <div className="flex flex-col items-start py-6 text-left">
+    <div className="flex flex-col items-start pt-6 text-left">
       <Head>
         <title>Bhumica</title>
       </Head>
