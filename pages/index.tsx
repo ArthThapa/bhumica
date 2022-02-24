@@ -6,10 +6,12 @@ import Image from "next/image";
 const Home: NextPage = () => {
   return (
     <div>
-      <h1 className="text-black text-center text-xs">I Believe I Can Fly</h1>
-      <div className="flex flex-col items-center h-screen justify-center text-center py-16 mx-4 my-12">
-        <div className="py-10">
-          <h1 className="text-6xl font-semibold py-2 hero-t text-primary">
+      <h1 className="text-black text-center text-xs best">
+        I Believe I Can Fly
+      </h1>
+      <div className="flex flex-col items-center justify-center text-center pb-16 mx-4 my-12">
+        <div className="">
+          <h1 className="text-6xl font-semibold py-2 hero-t text-primary block">
             COMING SOON ...
           </h1>
           <p className="best font-light text-3xl py-2 flex items-center">
@@ -30,11 +32,11 @@ const Home: NextPage = () => {
         </div>
         <Socials />
       </div>
-      <h1 className="text-black text-center text-xs">I Believe I Can Fly</h1>
+      <h1 className="text-black text-center text-xs best">
+        I Believe I Can Fly
+      </h1>
     </div>
   );
 };
 
 export default Home;
-
-//  I'll be here soon till then, you can reach me at mail@bhumica.com
