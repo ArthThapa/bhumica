@@ -1,26 +1,26 @@
 import type { NextPage } from "next";
 import Timer from "../components/Timer";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col items-center h-screen justify-center text-center">
-      <div className="py-6">
-        <h1 className="text-2xl font-semibold py-2">COMING SOON</h1>
-        <p className="py-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-          voluptatibus laborum illum iste itaque cupiditate inventore
-          repudiandae corrupti molestias perspiciatis quos temporibus earum
-          error nihil voluptates quia eveniet, dolor unde nesciunt! Illum, sit
-          facilis!
+    <div className="flex flex-col items-center h-screen justify-between text-center py-16">
+      <Image src={"/images/logo.png"} height={100} width={200} />
+      <div className="py-10">
+        <h1 className="text-6xl font-semibold py-2 hero-t text-primary">
+          COMING SOON .. .
+        </h1>
+        <p className="best font-bold text-4xl py-2">
+          The Best of Mine is yet to Shine. ⏳
         </p>
       </div>
-      <div className="py-6">Logo</div>
-      <div className="font-bold py-6">
-        <h2 className="py-2">
-          Launching on my birthday 😄 ~ programmed by my brother Arth, designed
-          by me
+      <div className="font-bold py-12 flex flex-col justify-center items-center">
+        <h2 className="py-2 text-5xl heading text-pastelBlue">
+          Launching On My Birthday 😄 <br />
+          <span className="text-xs mt-[-2px] block text-black">
+            ~ programmed by my brother, designed by me
+          </span>
         </h2>
-        <h2>29 March</h2>
         <Timer />
       </div>
     </div>

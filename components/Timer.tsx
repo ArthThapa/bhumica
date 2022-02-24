@@ -16,6 +16,7 @@ const Timer = () => {
   }, []);
   const count = () => {
     const now = new Date().getTime();
+    console.log(now);
     const t = deadLine - now;
     var dd = Math.floor(t / (1000 * 60 * 60 * 24));
     var hh = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -42,15 +43,31 @@ const Timer = () => {
   };
 
   return (
-    <div className="">
-      <div className="flex flex-col">
-        <div className="flex flex-col">
-          <h1>{state.days} Days </h1>
-          <h1>{state.minutes} Minutes </h1>
-          <h1>{state.seconds}seconds</h1>
+    <div className="items-center bg-slate-300 bg-gray-200 bg-pink-300 rounded-md  py-4 px-2 w-3/4 text-xl tracking-wider">
+      <h1 className="heading text-3xl mb-4 text-white">29 March 2022</h1>
+      <div className="timer grid grid-cols-7 gap-0 items-center font-semibold">
+        <div className="flex flex-col bg-white rounded-md px-2 py-3">
+          <h1>{state.days}</h1>
         </div>
-        <div className="flex flex-col"></div>
-        <div className="flex flex-col"></div>
+        <div className="w-">:</div>
+        <div className="flex flex-col  bg-white rounded-md px-2 py-3">
+          <h1>{state.hours}</h1>
+        </div>
+        :
+        <div className="flex flex-col  bg-white rounded-md px-2 py-3">
+          <h1>{state.minutes}</h1>
+        </div>
+        :
+        <div className="flex flex-col  bg-white rounded-md px-2 py-3">
+          <h1>{state.seconds}</h1>
+        </div>
+        <h5>Days</h5>
+        <h5></h5>
+        <h5>Hrs.</h5>
+        <h5></h5>
+        <h5>Mins.</h5>
+        <h5></h5>
+        <h5>Sec.</h5>
       </div>
     </div>
   );
