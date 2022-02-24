@@ -45,20 +45,20 @@ const Timer = () => {
   return (
     <div className="items-center bg-blue-900 rounded-md  py-2 px-2 w-3/4 text-xl tracking-wider opacity-90">
       <h1 className="heading text-3xl mb-4 text-white">29 March 2022</h1>
-      <div className="timer grid grid-cols-7 gap-0 items-center font-semibold">
-        <div className="flex flex-col bg-white rounded-md px-2 py-3">
+      <div className="timer grid grid-cols-7 gap-0 items-center font-semibold text-2xl">
+        <div className="flex flex-col bg-white rounded-md px-2 py-3 items-center">
           <h1>{state.days}</h1>
         </div>
         <div className="text-white">:</div>
-        <div className="flex flex-col  bg-white rounded-md px-2 py-3">
+        <div className="flex flex-col  bg-white rounded-md px-2 py-3 items-center">
           <h1>{state.hours}</h1>
         </div>
         <div className="text-white">:</div>
-        <div className="flex flex-col  bg-white rounded-md px-2 py-3">
+        <div className="flex flex-col  bg-white rounded-md px-2 py-3 items-center">
           <h1>{state.minutes}</h1>
         </div>
         <div className="text-white">:</div>
-        <div className="flex flex-col  bg-white rounded-md px-2 py-3">
+        <div className="flex flex-col  bg-white rounded-md px-2 py-3 items-center">
           <h1>{state.seconds}</h1>
         </div>
         <h5 className="text-white font-thin">Days</h5>
