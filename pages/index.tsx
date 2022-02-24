@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <Socials />
       </div>
       <h1 className="text-black text-center text-xs best">
-        I Believe I Can Fly
+        हम होंगे कामयाब एक दिन
       </h1>
     </div>
   );
