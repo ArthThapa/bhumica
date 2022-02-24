@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Socials = () => {
   return (
-    <div className="flex flex-col items-start py-14">
+    <div className="flex flex-col items-start py-14 text-left">
       <h1>I&apos;ll be here soon. Till then, you can reach me here:</h1>
       <div className="flex justify-center  items-center text-xs py-4">
         <Image src="/icons/discord.svg" height={25} width={25} />
@@ -28,6 +28,4 @@ const Socials = () => {
     </div>
   );
 };
-// bday timestamp -> 1651190400000
-// rn -> 1645693736471
 export default Socials;

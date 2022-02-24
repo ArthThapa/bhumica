@@ -43,31 +43,31 @@ const Timer = () => {
   };
 
   return (
-    <div className="items-center bg-pink-300 rounded-md  py-4 px-2 w-3/4 text-xl tracking-wider">
+    <div className="items-center bg-blue-900 rounded-md  py-2 px-2 w-3/4 text-xl tracking-wider opacity-90">
       <h1 className="heading text-3xl mb-4 text-white">29 March 2022</h1>
       <div className="timer grid grid-cols-7 gap-0 items-center font-semibold">
         <div className="flex flex-col bg-white rounded-md px-2 py-3">
           <h1>{state.days}</h1>
         </div>
-        <div className="w-">:</div>
+        <div className="text-white">:</div>
         <div className="flex flex-col  bg-white rounded-md px-2 py-3">
           <h1>{state.hours}</h1>
         </div>
-        :
+        <div className="text-white">:</div>
         <div className="flex flex-col  bg-white rounded-md px-2 py-3">
           <h1>{state.minutes}</h1>
         </div>
-        :
+        <div className="text-white">:</div>
         <div className="flex flex-col  bg-white rounded-md px-2 py-3">
           <h1>{state.seconds}</h1>
         </div>
-        <h5>Days</h5>
+        <h5 className="text-white font-thin">Days</h5>
         <h5></h5>
-        <h5>Hrs.</h5>
+        <h5 className="text-white font-thin">Hrs.</h5>
         <h5></h5>
-        <h5>Mins.</h5>
+        <h5 className="text-white font-thin">Mins.</h5>
         <h5></h5>
-        <h5>Sec.</h5>
+        <h5 className="text-white font-thin">Sec.</h5>
       </div>
     </div>
   );

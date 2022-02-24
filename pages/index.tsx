@@ -16,10 +16,9 @@ const Home: NextPage = () => {
         </p>
       </div>
       <div className="font-bold py-12 flex flex-col justify-center items-center">
-        <h2 className="py-2 text-5xl heading text-pastelBlue mb-8 flex flex-col">
+        <h2 className="py-1 text-5xl heading text-blue-900 mb-8 flex flex-col">
           <div className="flex items-center text-5xl heading">
             Launching On My Birthday{" "}
-            <Image src={"/vids/smile.gif"} height={70} width={70} />
           </div>
           <span className="text-xs mt-[-2px] block text-black italic">
             ~ programmed by my brother, designed by me
