@@ -43,7 +43,7 @@ const Timer = () => {
   };
 
   return (
-    <div className="items-center bg-slate-300 bg-gray-200 bg-pink-300 rounded-md  py-4 px-2 w-3/4 text-xl tracking-wider">
+    <div className="items-center bg-pink-300 rounded-md  py-4 px-2 w-3/4 text-xl tracking-wider">
       <h1 className="heading text-3xl mb-4 text-white">29 March 2022</h1>
       <div className="timer grid grid-cols-7 gap-0 items-center font-semibold">
         <div className="flex flex-col bg-white rounded-md px-2 py-3">

@@ -1,30 +1,37 @@
 import type { NextPage } from "next";
 import Timer from "../components/Timer";
+import Socials from "../components/Socials";
 import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col items-center h-screen justify-between text-center py-16">
-      <Image src={"/images/logo.png"} height={100} width={200} />
+    <div className="flex flex-col items-center h-screen justify-center text-center py-16 mx-4">
       <div className="py-10">
         <h1 className="text-6xl font-semibold py-2 hero-t text-primary">
           COMING SOON .. .
         </h1>
-        <p className="best font-bold text-4xl py-2">
-          The Best of Mine is yet to Shine. ⏳
+        <p className="best font-bold text-5xl py-2 flex items-center">
+          The Best of Mine is yet to Shine.{" "}
+          <Image src={"/vids/hourglass.gif"} height={70} width={70} />
         </p>
       </div>
       <div className="font-bold py-12 flex flex-col justify-center items-center">
-        <h2 className="py-2 text-5xl heading text-pastelBlue">
-          Launching On My Birthday 😄 <br />
-          <span className="text-xs mt-[-2px] block text-black">
+        <h2 className="py-2 text-5xl heading text-pastelBlue mb-8 flex flex-col">
+          <div className="flex items-center text-5xl heading">
+            Launching On My Birthday{" "}
+            <Image src={"/vids/smile.gif"} height={70} width={70} />
+          </div>
+          <span className="text-xs mt-[-2px] block text-black italic">
             ~ programmed by my brother, designed by me
           </span>
         </h2>
         <Timer />
       </div>
+      <Socials />
     </div>
   );
 };
 
 export default Home;
+
+//  I'll be here soon till then, you can reach me at mail@bhumica.com
