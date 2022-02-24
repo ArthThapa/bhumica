@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <h1 className="text-black text-center text-xs best">
         I Believe I Can Fly
       </h1>
-      <div className="flex flex-col items-center justify-center text-center pb-16 mx-4 my-12">
+      <div className="flex flex-col items-center justify-center text-center py-16 mx-4 my-12">
         <div className="">
           <h1 className="text-6xl font-semibold py-2 hero-t text-primary block">
             COMING SOON ...
