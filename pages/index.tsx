@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen home">
       <h1 className="text-black text-center text-xs best">
         I Believe I Can Fly
       </h1>

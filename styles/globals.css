@@ -23,3 +23,9 @@ body {
 .timer * {
   font-family: "Stint Ultra Condensed", cursive;
 }
+
+.home {
+  background: url("../public/images/bg.svg");
+  background-position: center;
+  background-size: 200px;
+}
